@@ -1,0 +1,2060 @@
+2019-11-23 13:08:56 [91.188.129.10][-][1avgqhjh2it26q8ahi8eilv0l4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/back.PNG". in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('images/back.PNG', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-23 13:08:56 [91.188.129.10][-][1avgqhjh2it26q8ahi8eilv0l4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'kemqb7e29f3lp2q32f36m7lv50'
+    '_csrf-frontend' => '6ebb060e6fa89fac2feaf5fa98b139b2575c12e21caf8e0425fb507a20bf2032a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ncaHSVda_a6DMoOJM0yFbRcP-URksB85\";}'
+    '_ga' => 'GA1.2.238574975.1574496441'
+    '_gid' => 'GA1.2.1900155092.1574496441'
+    'advanced-backend' => '1avgqhjh2it26q8ahi8eilv0l4'
+    '_csrf-backend' => '72a7d106048370b0655ee1651f6eed7b5eb6dba58c382a9f8f690eb5849e4540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"nMQpFSGIrNqww9V_u3F7ts-fO4IdJa5K\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/images/back.PNG'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/images/back.PNG'
+    'REMOTE_PORT' => '46432'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => 'advanced-frontend=kemqb7e29f3lp2q32f36m7lv50; _csrf-frontend=6ebb060e6fa89fac2feaf5fa98b139b2575c12e21caf8e0425fb507a20bf2032a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22ncaHSVda_a6DMoOJM0yFbRcP-URksB85%22%3B%7D; _ga=GA1.2.238574975.1574496441; _gid=GA1.2.1900155092.1574496441; advanced-backend=1avgqhjh2it26q8ahi8eilv0l4; _csrf-backend=72a7d106048370b0655ee1651f6eed7b5eb6dba58c382a9f8f690eb5849e4540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22nMQpFSGIrNqww9V_u3F7ts-fO4IdJa5K%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,ru;q=0.7,en-CA;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/site/login'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574496536.3201
+    'REQUEST_TIME' => 1574496536
+]
+2019-11-28 11:13:38 [91.188.129.10][-][6krf2jgeg0bqlk8koelqt09s44][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/back.PNG". in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('images/back.PNG', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:13:38 [91.188.129.10][-][6krf2jgeg0bqlk8koelqt09s44][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-frontend' => 'ehvvqve8153s0s6dg6c8s6gmh0'
+    '_csrf-frontend' => 'eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-jWMTePY7jQASbIsuaD3GikFnZhfQAEz\";}'
+    'advanced-backend' => '6krf2jgeg0bqlk8koelqt09s44'
+    '_csrf-backend' => 'a376b1391cbc0a22305d8866e4ab50fd833815f792ca7eab434aa880117750baa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"BUeQIlvP-uLuUKM5Gkd6YgTldBIEw6I_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/images/back.PNG'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/images/back.PNG'
+    'REMOTE_PORT' => '56434'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-frontend=ehvvqve8153s0s6dg6c8s6gmh0; _csrf-frontend=eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-jWMTePY7jQASbIsuaD3GikFnZhfQAEz%22%3B%7D; advanced-backend=6krf2jgeg0bqlk8koelqt09s44; _csrf-backend=a376b1391cbc0a22305d8866e4ab50fd833815f792ca7eab434aa880117750baa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22BUeQIlvP-uLuUKM5Gkd6YgTldBIEw6I_%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/site/login'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574921618.678
+    'REQUEST_TIME' => 1574921618
+]
+2019-11-28 11:13:49 [91.188.129.10][1][9m66cfp5qkuoejqbeecllg7810][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Unable to verify your data submission. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Controller.php:166
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#5 {main}
+2019-11-28 11:13:49 [91.188.129.10][1][9m66cfp5qkuoejqbeecllg7810][info][application] $_GET = []
+
+$_POST = [
+    '_csrf-backend' => 'Ws-cMxeoSHmcHCuN6e2VBsE49_w2ngq588BaBN7pik4YmvliXsQ-KbFpZ_i8ptgzhlOTym_5XtWXghNBqd_DEQ=='
+    'LoginForm' => [
+        'username' => 'superadmin'
+        'password' => 'superadmin'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-frontend' => 'ehvvqve8153s0s6dg6c8s6gmh0'
+    '_csrf-frontend' => 'eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-jWMTePY7jQASbIsuaD3GikFnZhfQAEz\";}'
+    '_gat_gtag_UA_149306370_1' => '1'
+    'advanced-backend' => '9m66cfp5qkuoejqbeecllg7810'
+    '_csrf-backend' => 'ab18b79a496e0c8c4b2839f2cd0d057d0b0e7f59d406e63a0a9b81ec5fc73d04a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"JkMqamVyT2hOuTrRA7BFY8iBpYLe2HK-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/site/login'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/site/login'
+    'REMOTE_PORT' => '59284'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-frontend=ehvvqve8153s0s6dg6c8s6gmh0; _csrf-frontend=eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-jWMTePY7jQASbIsuaD3GikFnZhfQAEz%22%3B%7D; _gat_gtag_UA_149306370_1=1; advanced-backend=9m66cfp5qkuoejqbeecllg7810; _csrf-backend=ab18b79a496e0c8c4b2839f2cd0d057d0b0e7f59d406e63a0a9b81ec5fc73d04a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22JkMqamVyT2hOuTrRA7BFY8iBpYLe2HK-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/site/login'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'https://services.agrobank.uz'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '190'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574921629.8334
+    'REQUEST_TIME' => 1574921629
+]
+2019-11-28 11:13:50 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/header.htm...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:13:49 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-frontend' => 'ehvvqve8153s0s6dg6c8s6gmh0'
+    '_csrf-frontend' => 'eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-jWMTePY7jQASbIsuaD3GikFnZhfQAEz\";}'
+    '_gat_gtag_UA_149306370_1' => '1'
+    'advanced-backend' => '9m66cfp5qkuoejqbeecllg7810'
+    '_csrf-backend' => 'ab18b79a496e0c8c4b2839f2cd0d057d0b0e7f59d406e63a0a9b81ec5fc73d04a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"JkMqamVyT2hOuTrRA7BFY8iBpYLe2HK-\";}'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/site/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/site/header.html'
+    'REMOTE_PORT' => '59294'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-frontend=ehvvqve8153s0s6dg6c8s6gmh0; _csrf-frontend=eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-jWMTePY7jQASbIsuaD3GikFnZhfQAEz%22%3B%7D; _gat_gtag_UA_149306370_1=1; advanced-backend=9m66cfp5qkuoejqbeecllg7810; _csrf-backend=ab18b79a496e0c8c4b2839f2cd0d057d0b0e7f59d406e63a0a9b81ec5fc73d04a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22JkMqamVyT2hOuTrRA7BFY8iBpYLe2HK-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/site/login'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574921629.9939
+    'REQUEST_TIME' => 1574921629
+]
+2019-11-28 11:13:53 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: stuff/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('stuff/header.ht...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:13:53 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-frontend' => 'ehvvqve8153s0s6dg6c8s6gmh0'
+    '_csrf-frontend' => 'eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-jWMTePY7jQASbIsuaD3GikFnZhfQAEz\";}'
+    '_gat_gtag_UA_149306370_1' => '1'
+    'advanced-backend' => '9m66cfp5qkuoejqbeecllg7810'
+    '_csrf-backend' => 'ab18b79a496e0c8c4b2839f2cd0d057d0b0e7f59d406e63a0a9b81ec5fc73d04a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"JkMqamVyT2hOuTrRA7BFY8iBpYLe2HK-\";}'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/stuff/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/stuff/header.html'
+    'REMOTE_PORT' => '59528'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-frontend=ehvvqve8153s0s6dg6c8s6gmh0; _csrf-frontend=eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-jWMTePY7jQASbIsuaD3GikFnZhfQAEz%22%3B%7D; _gat_gtag_UA_149306370_1=1; advanced-backend=9m66cfp5qkuoejqbeecllg7810; _csrf-backend=ab18b79a496e0c8c4b2839f2cd0d057d0b0e7f59d406e63a0a9b81ec5fc73d04a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22JkMqamVyT2hOuTrRA7BFY8iBpYLe2HK-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/stuff/index'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574921633.4032
+    'REQUEST_TIME' => 1574921633
+]
+2019-11-28 11:14:15 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: stuff/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('stuff/header.ht...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:14:15 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-frontend' => 'ehvvqve8153s0s6dg6c8s6gmh0'
+    '_csrf-frontend' => 'eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-jWMTePY7jQASbIsuaD3GikFnZhfQAEz\";}'
+    '_gat_gtag_UA_149306370_1' => '1'
+    'advanced-backend' => '9m66cfp5qkuoejqbeecllg7810'
+    '_csrf-backend' => 'ab18b79a496e0c8c4b2839f2cd0d057d0b0e7f59d406e63a0a9b81ec5fc73d04a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"JkMqamVyT2hOuTrRA7BFY8iBpYLe2HK-\";}'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/stuff/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/stuff/header.html'
+    'REMOTE_PORT' => '34700'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-frontend=ehvvqve8153s0s6dg6c8s6gmh0; _csrf-frontend=eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-jWMTePY7jQASbIsuaD3GikFnZhfQAEz%22%3B%7D; _gat_gtag_UA_149306370_1=1; advanced-backend=9m66cfp5qkuoejqbeecllg7810; _csrf-backend=ab18b79a496e0c8c4b2839f2cd0d057d0b0e7f59d406e63a0a9b81ec5fc73d04a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22JkMqamVyT2hOuTrRA7BFY8iBpYLe2HK-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/stuff/create'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574921655.2188
+    'REQUEST_TIME' => 1574921655
+]
+2019-11-28 11:14:17 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: stuff/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('stuff/header.ht...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:14:17 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-frontend' => 'ehvvqve8153s0s6dg6c8s6gmh0'
+    '_csrf-frontend' => 'eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-jWMTePY7jQASbIsuaD3GikFnZhfQAEz\";}'
+    '_gat_gtag_UA_149306370_1' => '1'
+    'advanced-backend' => '9m66cfp5qkuoejqbeecllg7810'
+    '_csrf-backend' => 'ab18b79a496e0c8c4b2839f2cd0d057d0b0e7f59d406e63a0a9b81ec5fc73d04a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"JkMqamVyT2hOuTrRA7BFY8iBpYLe2HK-\";}'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/stuff/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/stuff/header.html'
+    'REMOTE_PORT' => '34988'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-frontend=ehvvqve8153s0s6dg6c8s6gmh0; _csrf-frontend=eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-jWMTePY7jQASbIsuaD3GikFnZhfQAEz%22%3B%7D; _gat_gtag_UA_149306370_1=1; advanced-backend=9m66cfp5qkuoejqbeecllg7810; _csrf-backend=ab18b79a496e0c8c4b2839f2cd0d057d0b0e7f59d406e63a0a9b81ec5fc73d04a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22JkMqamVyT2hOuTrRA7BFY8iBpYLe2HK-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/stuff/index'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574921657.9166
+    'REQUEST_TIME' => 1574921657
+]
+2019-11-28 11:17:54 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: stuff/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('stuff/header.ht...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:17:54 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-frontend' => 'ehvvqve8153s0s6dg6c8s6gmh0'
+    '_csrf-frontend' => 'eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-jWMTePY7jQASbIsuaD3GikFnZhfQAEz\";}'
+    'advanced-backend' => '9m66cfp5qkuoejqbeecllg7810'
+    '_csrf-backend' => 'ab18b79a496e0c8c4b2839f2cd0d057d0b0e7f59d406e63a0a9b81ec5fc73d04a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"JkMqamVyT2hOuTrRA7BFY8iBpYLe2HK-\";}'
+    '_gat_gtag_UA_149306370_1' => '1'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/stuff/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/stuff/header.html'
+    'REMOTE_PORT' => '33958'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-frontend=ehvvqve8153s0s6dg6c8s6gmh0; _csrf-frontend=eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-jWMTePY7jQASbIsuaD3GikFnZhfQAEz%22%3B%7D; advanced-backend=9m66cfp5qkuoejqbeecllg7810; _csrf-backend=ab18b79a496e0c8c4b2839f2cd0d057d0b0e7f59d406e63a0a9b81ec5fc73d04a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22JkMqamVyT2hOuTrRA7BFY8iBpYLe2HK-%22%3B%7D; _gat_gtag_UA_149306370_1=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/stuff/index'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574921874.8667
+    'REQUEST_TIME' => 1574921874
+]
+2019-11-28 11:19:04 [91.188.129.10][-][rkb8n2qnhhhsj8876mc1ldp1d5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/back.PNG". in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('images/back.PNG', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:19:04 [91.188.129.10][-][rkb8n2qnhhhsj8876mc1ldp1d5][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-frontend' => 'ehvvqve8153s0s6dg6c8s6gmh0'
+    '_csrf-frontend' => 'eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-jWMTePY7jQASbIsuaD3GikFnZhfQAEz\";}'
+    '_csrf-backend' => 'ab18b79a496e0c8c4b2839f2cd0d057d0b0e7f59d406e63a0a9b81ec5fc73d04a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"JkMqamVyT2hOuTrRA7BFY8iBpYLe2HK-\";}'
+    '_gat_gtag_UA_149306370_1' => '1'
+    'advanced-backend' => 'rkb8n2qnhhhsj8876mc1ldp1d5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/images/back.PNG'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/images/back.PNG'
+    'REMOTE_PORT' => '43356'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-frontend=ehvvqve8153s0s6dg6c8s6gmh0; _csrf-frontend=eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-jWMTePY7jQASbIsuaD3GikFnZhfQAEz%22%3B%7D; _csrf-backend=ab18b79a496e0c8c4b2839f2cd0d057d0b0e7f59d406e63a0a9b81ec5fc73d04a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22JkMqamVyT2hOuTrRA7BFY8iBpYLe2HK-%22%3B%7D; _gat_gtag_UA_149306370_1=1; advanced-backend=rkb8n2qnhhhsj8876mc1ldp1d5'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/site/login'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574921944.5302
+    'REQUEST_TIME' => 1574921944
+]
+2019-11-28 11:19:09 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: credit/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('credit/header.h...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:19:09 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-frontend' => 'ehvvqve8153s0s6dg6c8s6gmh0'
+    '_csrf-frontend' => 'eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-jWMTePY7jQASbIsuaD3GikFnZhfQAEz\";}'
+    '_gat_gtag_UA_149306370_1' => '1'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/header.html'
+    'REMOTE_PORT' => '44256'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-frontend=ehvvqve8153s0s6dg6c8s6gmh0; _csrf-frontend=eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-jWMTePY7jQASbIsuaD3GikFnZhfQAEz%22%3B%7D; _gat_gtag_UA_149306370_1=1; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/index'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574921949.293
+    'REQUEST_TIME' => 1574921949
+]
+2019-11-28 11:19:25 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: credit/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('credit/header.h...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:19:25 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-frontend' => 'ehvvqve8153s0s6dg6c8s6gmh0'
+    '_csrf-frontend' => 'eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-jWMTePY7jQASbIsuaD3GikFnZhfQAEz\";}'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/header.html'
+    'REMOTE_PORT' => '46396'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-frontend=ehvvqve8153s0s6dg6c8s6gmh0; _csrf-frontend=eb7ee7aaf8171079eeded5c7bfe9fa1d549d4e161d5fce1cc3742d049f05f664a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-jWMTePY7jQASbIsuaD3GikFnZhfQAEz%22%3B%7D; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/view?id=5'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574921965.2027
+    'REQUEST_TIME' => 1574921965
+]
+2019-11-28 11:20:42 [91.188.129.10][-][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/controllers/CreditController.php on line 135. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2019-11-28 11:20:42 [91.188.129.10][-][-][info][application] $_GET = [
+    'id' => '333222111'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+    'advanced-frontend' => '2spvsn6kmbfvql2aj0jp4klug1'
+    '_csrf-frontend' => '88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN\";}'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/download?id=333222111'
+    'QUERY_STRING' => 'id=333222111'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/download'
+    'REDIRECT_QUERY_STRING' => 'id=333222111'
+    'REMOTE_PORT' => '58446'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D; advanced-frontend=2spvsn6kmbfvql2aj0jp4klug1; _csrf-frontend=88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/view?id=5'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574922042.3258
+    'REQUEST_TIME' => 1574922042
+]
+2019-11-28 11:32:52 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: credit/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('credit/header.h...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:32:52 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+    '_csrf-frontend' => '88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN\";}'
+    'advanced-frontend' => 'nva57nuoeefl6t65sus76mjs91'
+    '_gat_gtag_UA_149306370_1' => '1'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/header.html'
+    'REMOTE_PORT' => '42384'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D; _csrf-frontend=88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN%22%3B%7D; advanced-frontend=nva57nuoeefl6t65sus76mjs91; _gat_gtag_UA_149306370_1=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/index'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574922772.9515
+    'REQUEST_TIME' => 1574922772
+]
+2019-11-28 11:32:56 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: credit/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('credit/header.h...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:32:56 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+    '_csrf-frontend' => '88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN\";}'
+    'advanced-frontend' => 'nva57nuoeefl6t65sus76mjs91'
+    '_gat_gtag_UA_149306370_1' => '1'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/header.html'
+    'REMOTE_PORT' => '42872'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D; _csrf-frontend=88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN%22%3B%7D; advanced-frontend=nva57nuoeefl6t65sus76mjs91; _gat_gtag_UA_149306370_1=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/index'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574922776.2851
+    'REQUEST_TIME' => 1574922776
+]
+2019-11-28 11:33:03 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: credit/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('credit/header.h...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:33:03 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+    '_csrf-frontend' => '88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN\";}'
+    'advanced-frontend' => 'nva57nuoeefl6t65sus76mjs91'
+    '_gat_gtag_UA_149306370_1' => '1'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/header.html'
+    'REMOTE_PORT' => '43970'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D; _csrf-frontend=88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN%22%3B%7D; advanced-frontend=nva57nuoeefl6t65sus76mjs91; _gat_gtag_UA_149306370_1=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/index?CreditSearch%5Bcompany_id%5D=33&CreditSearch%5Bc_type%5D=&CreditSearch%5Bsumma%5D='
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574922783.7567
+    'REQUEST_TIME' => 1574922783
+]
+2019-11-28 11:33:11 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: credit/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('credit/header.h...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:33:11 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+    '_csrf-frontend' => '88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN\";}'
+    'advanced-frontend' => 'nva57nuoeefl6t65sus76mjs91'
+    '_gat_gtag_UA_149306370_1' => '1'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/header.html'
+    'REMOTE_PORT' => '45190'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D; _csrf-frontend=88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN%22%3B%7D; advanced-frontend=nva57nuoeefl6t65sus76mjs91; _gat_gtag_UA_149306370_1=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/index?CreditSearch%5Bcompany_id%5D=33&CreditSearch%5Bc_type%5D=&CreditSearch%5Bsumma%5D='
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574922791.7833
+    'REQUEST_TIME' => 1574922791
+]
+2019-11-28 11:33:13 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: credit/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('credit/header.h...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:33:13 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+    '_csrf-frontend' => '88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN\";}'
+    'advanced-frontend' => 'nva57nuoeefl6t65sus76mjs91'
+    '_gat_gtag_UA_149306370_1' => '1'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/header.html'
+    'REMOTE_PORT' => '45568'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D; _csrf-frontend=88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN%22%3B%7D; advanced-frontend=nva57nuoeefl6t65sus76mjs91; _gat_gtag_UA_149306370_1=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/index?CreditSearch%5Bcompany_id%5D=33&CreditSearch%5Bc_type%5D=&CreditSearch%5Bsumma%5D='
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574922793.5529
+    'REQUEST_TIME' => 1574922793
+]
+2019-11-28 11:33:15 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: credit/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('credit/header.h...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:33:15 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+    '_csrf-frontend' => '88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN\";}'
+    'advanced-frontend' => 'nva57nuoeefl6t65sus76mjs91'
+    '_gat_gtag_UA_149306370_1' => '1'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/header.html'
+    'REMOTE_PORT' => '45952'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D; _csrf-frontend=88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN%22%3B%7D; advanced-frontend=nva57nuoeefl6t65sus76mjs91; _gat_gtag_UA_149306370_1=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/index?CreditSearch%5Bcompany_id%5D=&CreditSearch%5Bc_type%5D=&CreditSearch%5Bsumma%5D='
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574922795.8782
+    'REQUEST_TIME' => 1574922795
+]
+2019-11-28 11:33:22 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: credit/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('credit/header.h...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:33:22 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+    '_csrf-frontend' => '88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN\";}'
+    'advanced-frontend' => 'nva57nuoeefl6t65sus76mjs91'
+    '_gat_gtag_UA_149306370_1' => '1'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/header.html'
+    'REMOTE_PORT' => '46650'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D; _csrf-frontend=88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN%22%3B%7D; advanced-frontend=nva57nuoeefl6t65sus76mjs91; _gat_gtag_UA_149306370_1=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/index?CreditSearch%5Bcompany_id%5D=&CreditSearch%5Bc_type%5D=Kichik+&CreditSearch%5Bsumma%5D='
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574922802.1494
+    'REQUEST_TIME' => 1574922802
+]
+2019-11-28 11:33:24 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: credit/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('credit/header.h...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:33:24 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+    '_csrf-frontend' => '88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN\";}'
+    'advanced-frontend' => 'nva57nuoeefl6t65sus76mjs91'
+    '_gat_gtag_UA_149306370_1' => '1'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/header.html'
+    'REMOTE_PORT' => '46990'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D; _csrf-frontend=88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN%22%3B%7D; advanced-frontend=nva57nuoeefl6t65sus76mjs91; _gat_gtag_UA_149306370_1=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/index?CreditSearch%5Bcompany_id%5D=&CreditSearch%5Bc_type%5D=Kichik+&CreditSearch%5Bsumma%5D='
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574922804.8357
+    'REQUEST_TIME' => 1574922804
+]
+2019-11-28 11:33:30 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: credit/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('credit/header.h...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:33:30 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+    '_csrf-frontend' => '88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN\";}'
+    'advanced-frontend' => 'nva57nuoeefl6t65sus76mjs91'
+    '_gat_gtag_UA_149306370_1' => '1'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/header.html'
+    'REMOTE_PORT' => '47816'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D; _csrf-frontend=88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN%22%3B%7D; advanced-frontend=nva57nuoeefl6t65sus76mjs91; _gat_gtag_UA_149306370_1=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/index?CreditSearch%5Bcompany_id%5D=%09333222111&CreditSearch%5Bc_type%5D=Kichik+&CreditSearch%5Bsumma%5D='
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574922810.0393
+    'REQUEST_TIME' => 1574922810
+]
+2019-11-28 11:33:32 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: credit/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('credit/header.h...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:33:32 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+    '_csrf-frontend' => '88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN\";}'
+    'advanced-frontend' => 'nva57nuoeefl6t65sus76mjs91'
+    '_gat_gtag_UA_149306370_1' => '1'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/header.html'
+    'REMOTE_PORT' => '48080'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D; _csrf-frontend=88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN%22%3B%7D; advanced-frontend=nva57nuoeefl6t65sus76mjs91; _gat_gtag_UA_149306370_1=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/index?CreditSearch%5Bcompany_id%5D=%09333222111&CreditSearch%5Bc_type%5D=Kichik+&CreditSearch%5Bsumma%5D='
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574922812.1403
+    'REQUEST_TIME' => 1574922812
+]
+2019-11-28 11:33:35 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: credit/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('credit/header.h...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:33:35 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+    '_csrf-frontend' => '88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN\";}'
+    'advanced-frontend' => 'nva57nuoeefl6t65sus76mjs91'
+    '_gat_gtag_UA_149306370_1' => '1'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/header.html'
+    'REMOTE_PORT' => '48686'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D; _csrf-frontend=88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN%22%3B%7D; advanced-frontend=nva57nuoeefl6t65sus76mjs91; _gat_gtag_UA_149306370_1=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/index?CreditSearch%5Bcompany_id%5D=333222111&CreditSearch%5Bc_type%5D=Kichik+&CreditSearch%5Bsumma%5D='
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574922815.958
+    'REQUEST_TIME' => 1574922815
+]
+2019-11-28 11:33:40 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: credit/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('credit/header.h...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:33:40 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+    '_csrf-frontend' => '88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN\";}'
+    'advanced-frontend' => 'nva57nuoeefl6t65sus76mjs91'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/header.html'
+    'REMOTE_PORT' => '49240'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D; _csrf-frontend=88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN%22%3B%7D; advanced-frontend=nva57nuoeefl6t65sus76mjs91'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/index?CreditSearch%5Bcompany_id%5D=333222111&CreditSearch%5Bc_type%5D=&CreditSearch%5Bsumma%5D='
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574922820.6952
+    'REQUEST_TIME' => 1574922820
+]
+2019-11-28 11:33:43 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: credit/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('credit/header.h...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:33:43 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+    '_csrf-frontend' => '88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN\";}'
+    'advanced-frontend' => 'nva57nuoeefl6t65sus76mjs91'
+    '_gat_gtag_UA_149306370_1' => '1'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/header.html'
+    'REMOTE_PORT' => '49748'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D; _csrf-frontend=88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN%22%3B%7D; advanced-frontend=nva57nuoeefl6t65sus76mjs91; _gat_gtag_UA_149306370_1=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/index?CreditSearch%5Bcompany_id%5D=333222111&CreditSearch%5Bc_type%5D=&CreditSearch%5Bsumma%5D='
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574922823.7383
+    'REQUEST_TIME' => 1574922823
+]
+2019-11-28 11:33:49 [91.188.129.10][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: credit/header.html in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('header.html', Array)
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('credit/header.h...', Array)
+#2 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vhosts/agrobank.uz/services.agrobank.uz/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-28 11:33:49 [91.188.129.10][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_fbp' => 'fb.1.1564564815620.1317352362'
+    '_ym_uid' => '1567845485381336608'
+    '_ym_d' => '1567845485'
+    '_ga_4GSG02WEH6' => 'GS1.1.1567845484.1.1.1567845787.0'
+    '_ga' => 'GA1.2.982089210.1564564815'
+    '_gid' => 'GA1.2.1761610871.1574848513'
+    '_ym_isad' => '2'
+    '_ym_visorc_51726308' => 'w'
+    'advanced-backend' => 'bfchb27daceuihsvg0fub7skd0'
+    '_csrf-backend' => '13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0\";}'
+    '_csrf-frontend' => '88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN\";}'
+    'advanced-frontend' => 'nva57nuoeefl6t65sus76mjs91'
+    '_gat_gtag_UA_149306370_1' => '1'
+]
+
+$_SERVER = [
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'PP_CUSTOM_PHP_INI' => '/var/www/vhosts/system/services.agrobank.uz/etc/php.ini'
+    'PP_CUSTOM_PHP_CGI_INDEX' => 'plesk-php70-fastcgi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/admin/credit/header.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/credit/header.html'
+    'REMOTE_PORT' => '50750'
+    'SCRIPT_FILENAME' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz/backend/web/index.php'
+    'SERVER_ADMIN' => 'marketing@agrobank.uz'
+    'DOCUMENT_ROOT' => '/var/www/vhosts/agrobank.uz/services.agrobank.uz'
+    'REMOTE_ADDR' => '91.188.129.10'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '91.212.89.50'
+    'SERVER_NAME' => 'services.agrobank.uz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => '<address>Apache Server at services.agrobank.uz Port 443</address>
+'
+    'HTTP_COOKIE' => '_fbp=fb.1.1564564815620.1317352362; _ym_uid=1567845485381336608; _ym_d=1567845485; _ga_4GSG02WEH6=GS1.1.1567845484.1.1.1567845787.0; _ga=GA1.2.982089210.1564564815; _gid=GA1.2.1761610871.1574848513; _ym_isad=2; _ym_visorc_51726308=w; advanced-backend=bfchb27daceuihsvg0fub7skd0; _csrf-backend=13002b22bd44d960b657386d977e189b86adfa7b811143e99bbaba6964eaf361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22B59wuf1O81Ry4B-J5EgvswxX4gnKpWh0%22%3B%7D; _csrf-frontend=88bdb69c9d8f1eeb8d62e54dbcee4ed0d71c03f79661cc72a759b12a2d24750ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CKW6SvX5xTZ4HauXkDe3XsKo95ucNYUN%22%3B%7D; advanced-frontend=nva57nuoeefl6t65sus76mjs91; _gat_gtag_UA_149306370_1=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://services.agrobank.uz/admin/credit/index?CreditSearch%5Bcompany_id%5D=33322211&CreditSearch%5Bc_type%5D=&CreditSearch%5Bsumma%5D='
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_ACCEL_INTERNAL' => '/internal-nginx-static-location'
+    'HTTP_X_FORWARDED_FOR' => '91.188.129.10'
+    'HTTP_X_REAL_IP' => '91.188.129.10'
+    'HTTP_HOST' => 'services.agrobank.uz'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574922829.5737
+    'REQUEST_TIME' => 1574922829
+]
